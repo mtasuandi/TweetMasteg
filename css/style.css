@@ -1,0 +1,50 @@
+html{
+max-width:2500px;
+min-width:320px;
+margin:0px auto;
+background-image:url(../img/background.png);
+background-repeat:repeat;
+height:auto;
+}
+
+body {
+max-width:2500px;
+min-width:320px;
+margin:0px auto;
+height:auto;
+min-height: 100%;
+height: auto !important;
+height: 100%;
+}
+#prop{
+margin-left: 120px;
+}
+ 
+#wrapper-tweet{
+width:100%;
+max-width:650px;
+min-width:350px;
+margin:0px auto;
+background:white;
+padding:25px 25px;
+border-top:5px solid #212121;
+}
+
+#submit,#button-reset,#more-email,#save {
+background:#212121;
+color:white;
+font-family: 'BebasNeueRegular';
+padding:5px 25px;
+font-size:22px;
+text-align:left;
+text-shadow:1px 0px 2px black;
+}
+
+textarea#tweet {
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	background-image: url(bg.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}

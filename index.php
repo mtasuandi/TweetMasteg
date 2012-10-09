@@ -28,10 +28,10 @@ if(!empty ($_POST['tweet'])){
 require 'core/tmhOAuth.php';
 require 'core/tmhUtilities.php';
 $tmhOAuth = new tmhOAuth(array(
-  'consumer_key'    => 'CONSUMER_KEY',
-  'consumer_secret' => 'CONSUMER_SECRET',
-  'user_token'      => 'USER_TOKEN',
-  'user_secret'     => 'USER_SECRET',
+  'consumer_key'    => 'Qi0SAj0cr5BJwTydsBM9zg',
+  'consumer_secret' => 'Xg2yHEn71oUvVSL5705X9o5OlAm3CwTZ8zM5yyoPUc',
+  'user_token'      => '109829124-cjf6bBagKGVwbqAJ8vVMFiqAEHtyGD2GEGR3af0I',
+  'user_secret'     => 'B64uzKRTCr7foPSkjhhHfzhL5uFAlOGiVMq0jYiLM',
 ));
 
 	$trends_url = "http://api.twitter.com/1/statuses/followers/masteg_.json";
